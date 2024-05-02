@@ -59,7 +59,7 @@ function Todos({todo}) {
     }
     return (
         
-      <div className=' block shadow-md border-black p-4 rounded-lg hover:shadow-lg
+      <div className=' block shadow-md border-black m-1 rounded-lg hover:shadow-lg
         bg-teal-300 bg-opacity-20 hover:bg-teal-400 hover:bg-opacity-25  mb-0  
          hover:border-t-0 hover:border-b-0 hover:border-l-2 content-center'>
             <div className='flex'>
