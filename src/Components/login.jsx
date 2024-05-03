@@ -93,7 +93,7 @@ function Login() {
                     <div className='flex border border-gray-800 border-opacity-45 rounded-lg shadow-sm 
                     hover:border-opacity-55 hover:shadow-md hover:bg-blue-400 hover:bg-opacity-5 bg-transparent'>
                     
-                        <div className=''>
+                        <div>
                             <Password/>
                         </div>
                         <Input 
