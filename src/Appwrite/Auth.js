@@ -1,5 +1,4 @@
 import {Account,Client,ID} from "appwrite"
-import conf from "../Conf/Conf"
 import toast from "react-hot-toast";
 export class AuthService {
     client = new Client();
@@ -7,8 +6,8 @@ export class AuthService {
 
     constructor(){
         this.client
-        .setEndpoint(conf.appwriteUrl)
-        .setProject(conf.appwriteProjectId);
+        .setEndpoint(import.meta.env.VITE_APPWRITE_URL)
+        .setProject(import.meta.env.VITE_APPWRITE_PROJECT_ID);
 
      this.account = new Account(this.client)
     }
